@@ -85,8 +85,12 @@ h3{
     text-decoration: none;
 }
 .clip{
-    color: #155e5e;
     text-decoration: none;
+    color: #40514E;
+}
+.clip:hover{
+    color:#054B4E;
+    font-weight: bold;
 }
 .code-img{
     width:25%;
