@@ -123,6 +123,11 @@ h3{
 .middle-container{
     padding-top: 50px;
 }
+.pre-footer-text{
+    width:50%;
+    text-align:center;
+    margin:20px auto 20px auto;
+}
 .skill-row{
     width:50%;
     margin:100px auto 100px auto;
