@@ -13,7 +13,7 @@ hr{
 h1{
     margin-top: 50px;
     margin-bottom:0;
-    font-family: 'Sacramento', cursive;
+    font-family: 'New Tegomin', serif;
     font-size: 5.625rem ;
     color: #155e5e;
 }
@@ -67,9 +67,9 @@ h3{
     text-align: center;
     margin-top: 50px;
     margin-bottom: 100px;
- }
+}
  
- .btn:hover {
+.btn:hover {
     border: solid #337FED 1px;
     background: #0A969B;
     background-image: -webkit-linear-gradient(top, #0A969B, #054B4E);
@@ -81,7 +81,11 @@ h3{
     -moz-border-radius: 20px;
     border-radius: 20px;
     text-decoration: none;
- }
+}
+.clip{
+    color: #155e5e;
+    text-decoration: none;
+}
 .code-img{
     width:25%;
     float:left;
