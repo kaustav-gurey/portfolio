@@ -1,4 +1,5 @@
 body{
+    color: #40514E;
     margin: 0px;
     text-align: center;
     font-family: 'Merriweather', serif;
@@ -8,7 +9,8 @@ hr{
     border-top-style: dotted;
     border-color: grey;
     border-width: 6px;
-    width: 6%;  
+    width: 4%;  
+    margin: 100px auto;
   }
 h1{
     margin-top: 50px;
@@ -49,11 +51,11 @@ h3{
     background-image: -ms-linear-gradient(top, #0EC8CE, #0E9DA2);
     background-image: -o-linear-gradient(top, #0EC8CE, #0E9DA2);
     background-image: -webkit-gradient(to bottom, #0EC8CE, #0E9DA2);
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
     color: #FFFFFF;
-    font-family: Open Sans;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     padding: 17px;
     -webkit-box-shadow: 1px 1px 20px 0 #000000;
@@ -77,9 +79,9 @@ h3{
     background-image: -ms-linear-gradient(top, #0A969B, #054B4E);
     background-image: -o-linear-gradient(top, #0A969B, #054B4E);
     background-image: -webkit-gradient(to bottom, #0A969B, #054B4E);
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
     text-decoration: none;
 }
 .clip{
@@ -112,6 +114,9 @@ h3{
     color:#155e5e;
     font-family: 'Montserrat', sans-serif;
 
+}
+.footer-link:hover{
+    color:#EAF6F6;
 }
 .footer-text{
     width:40%;
