@@ -528,28 +528,10 @@ img{
 }
 
 .skills__react{
-    width: 85%;
-}
-
-.skills__node{
-    width: 80%;
-}
-
-.skills__spreadsheet{
-    width: 90%;
-}
-
-.skills__sql{
-    width: 85%;
-}
-
-.skills__r{
     width: 60%;
 }
 
-.skills__tableau{
-    width: 70%;
-}
+
 
 .skills__c{
     width: 90%;
