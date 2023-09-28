@@ -1,9 +1,7 @@
-// import React from 'react';
+import  { useState } from 'react';
 
 export default function Navbar(){
-    function toggleMenu() {
-        
-    }
+    const [showMenu,setShowMenu] = useState(false);
     return(
         <div>
             <nav className="desktop-nav">
@@ -20,17 +18,20 @@ export default function Navbar(){
             <nav className="hamburger-nav">
                 <div className='logo'>Kaustav Gurey</div>
                 <div className="hamburger-menu">
-                    <div className="hamburger-icon" onClick={toggleMenu}>
+                    <div className={showMenu ? "hamburger-icon open" : "hamburger-icon"} onClick={()=> setShowMenu(x => !x)}>
                         <span></span>
                         <span></span>
                         <span></span>
                     </div>
-                    <div className="menu-links">
-                        <li onClick={toggleMenu}>About</li>
-                        <li onClick={toggleMenu}>Skills</li>
-                        <li onClick={toggleMenu}>Projects</li>
-                        <li onClick={toggleMenu}>Contact</li>
-                    </div>
+                    {showMenu?
+                        (<div className="menu-links">
+                            <li onClick={()=> setShowMenu(x => !x)}>About</li>
+                            <li onClick={()=> setShowMenu(x => !x)}>Skills</li>
+                            <li onClick={()=> setShowMenu(x => !x)}>Projects</li>
+                            <li onClick={()=> setShowMenu(x => !x)}>Contact</li>
+                        </div>):
+                        null
+                    }
                 </div>
 
             </nav>
