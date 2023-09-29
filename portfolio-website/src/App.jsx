@@ -1,13 +1,16 @@
-import React from "react";
+
 import './App.css'
 import './mediaquery.css'
 import Navbar from './components/Navbar'
+import About from './components/About'
+import Hero from './components/Hero'
 
 function App() {
   return(
     <div>
-      {/* <h1>Yello people</h1> */}
       <Navbar/>
+      <Hero/>
+      <About/>
     </div>
   )
 }
