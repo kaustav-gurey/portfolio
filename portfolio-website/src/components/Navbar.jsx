@@ -1,4 +1,5 @@
 import  { useState } from 'react';
+import {Link} from 'react-scroll';
 
 export default function Navbar(){
     const [showMenu,setShowMenu] = useState(false);
@@ -8,10 +9,26 @@ export default function Navbar(){
                 <div className='logo'>Kaustav Gurey</div>
                 <div>
                     <ul className='nav-links'>
-                        <li>About</li>
-                        <li>Skills</li>
-                        <li>Projects</li>
-                        <li>Contact</li>
+                        <li>
+                            <Link to='about' smooth={true} duration={500}>
+                                About
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to='skills' smooth={true} duration={500}>
+                                Skills
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to='projects' smooth={true} duration={500}>
+                                Projects
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to='contact' smooth={true} duration={500}>
+                                Contact
+                            </Link>
+                        </li>
                     </ul>
                 </div>
             </nav>

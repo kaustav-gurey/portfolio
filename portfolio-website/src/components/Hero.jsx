@@ -1,12 +1,12 @@
-import profilePic from "../assets/profile-pic.png" 
-import linkedIn from "../assets/linkedin.png" 
-import gitHub from "../assets/github.png" 
+import profilePic from "../assets/images/profile-pic.png" 
+import linkedIn from "../assets/icons/linkedin.png" 
+import gitHub from "../assets/icons/github.png" 
 export default function Hero() {
     const openInNewTab = (url) => {
         window.open(url, "_blank", "noreferrer");
     };
     return(
-        <section className="profile">
+        <section name="profile" className="profile">
             <div className="section_pic-container">
                 <img src={profilePic} alt="Kaustav Gurey profile picture"/>
             </div>
