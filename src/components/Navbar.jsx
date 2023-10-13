@@ -42,10 +42,26 @@ export default function Navbar(){
                     </div>
                     {showMenu?
                         (<div className="menu-links">
-                            <li onClick={()=> setShowMenu(x => !x)}>About</li>
-                            <li onClick={()=> setShowMenu(x => !x)}>Skills</li>
-                            <li onClick={()=> setShowMenu(x => !x)}>Projects</li>
-                            <li onClick={()=> setShowMenu(x => !x)}>Contact</li>
+                            <li onClick={()=> setShowMenu(x => !x)}>
+                                <Link to='about' smooth={true} duration={500}>
+                                    About
+                                </Link>
+                            </li>
+                            <li onClick={()=> setShowMenu(x => !x)}>
+                                <Link to='skills' smooth={true} duration={500}>
+                                    Skills
+                                </Link>
+                            </li>
+                            <li onClick={()=> setShowMenu(x => !x)}>
+                                <Link to='projects' smooth={true} duration={500}>
+                                    Projects
+                                </Link>
+                            </li>
+                            <li onClick={()=> setShowMenu(x => !x)}>
+                                <Link to='contact' smooth={true} duration={500}>
+                                    Contact
+                                </Link>
+                            </li>
                         </div>):
                         null
                     }
