@@ -23,7 +23,7 @@ export default function About() {
                                 src={experienceIcon} 
                                 alt="Experience icon" 
                                 className="icon"/>
-                            <h3>Experinece</h3>
+                            <h3>Experience</h3>
                             <p>0 years <br/> Frontend Development</p>
                         </div>
                         <div className="details-container">
