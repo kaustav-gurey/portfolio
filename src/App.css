@@ -83,13 +83,14 @@ nav{
   position: absolute;
   top: 100%;
   right: 0;
-  /* background-color: white; */
-  width: fit-content;
-  max-height: 0;
-  /* overflow: hidden; */
+  /* width: fit-content; */
+  /* max-height: 0; */
   transition: all 0.3 ease-in-out;
-  padding-top: .5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 3rem;
   border-radius: 1rem;
+  width : 70vw;
+  background-color: white;
 }
 .menu-links>li{
   color: black;
@@ -97,7 +98,7 @@ nav{
   text-decoration: none;
   text-decoration-color: white;
   display: block;
-  padding: 10px;
+  padding: 15px;
   text-align: center;
   font-size: 1.5rem;
   transition: all 0.3 ease-in-out;
