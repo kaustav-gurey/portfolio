@@ -1,6 +1,7 @@
 import profilePic from "../assets/images/profile-pic.png" 
 import linkedIn from "../assets/icons/linkedin.png" 
 import gitHub from "../assets/icons/github.png" 
+import {Link} from 'react-scroll';
 export default function Hero() {
     const openInNewTab = (url) => {
         window.open(url, "_blank", "noreferrer");
@@ -21,8 +22,10 @@ export default function Hero() {
                         onClick={() => openInNewTab("https://drive.google.com/file/d/1nH-zMNQaxhxz4fXXHkMQvErmJIs-b3Dr/view?usp=sharing")}>
                             Resume
                     </button>
-                    <button className="btn btn-color-1" /*onClick="location.href='./#contact'"*/>
-                        Contact Info
+                    <button className="btn btn-color-1" >
+                        <Link to='contact' smooth={true} duration={500}>
+                            Contact Info
+                        </Link>
                     </button>
                 </div>
                 <div className="socials-container">
