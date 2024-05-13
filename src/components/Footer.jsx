@@ -29,7 +29,7 @@ export default function Footer(){
                     </ul>
                 </div>
             </nav>
-            <p>Copyright &#169; 2023 Kaustav Gurey. All Rights Reserved.</p>
+            <p>Copyright &#169; 2024 Kaustav Gurey. All Rights Reserved.</p>
         </footer>
     )
 }
